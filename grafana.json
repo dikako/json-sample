@@ -1,0 +1,171 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-26T07:46:51.792Z",
+        "before": [
+          {
+            "result": {
+              "duration": 21213000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.IOSDriverHooks.initializeWebdriver()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User Login with blank username and password",
+        "description": "",
+        "id": "test-export-xray;user-login-with-blank-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1072000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.IOSDriverHooks.quitWebdriver(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2323000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on stockbit landingpage",
+            "match": {
+              "location": "demo.steps_definition.LoginSteps.<init>(LoginSteps.java:15)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 445000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click login",
+            "match": {
+              "location": "demo.steps_definition.LoginSteps.<init>(LoginSteps.java:17)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1072000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User input username as \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 24
+                }
+              ],
+              "location": "demo.steps_definition.LoginSteps.<init>(LoginSteps.java:19)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 757000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User input password as \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 24
+                }
+              ],
+              "location": "demo.steps_definition.LoginSteps.<init>(LoginSteps.java:28)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6795000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click button login",
+            "match": {
+              "location": "demo.steps_definition.LoginSteps.<init>(LoginSteps.java:37)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 370000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User see alert \"Mohon masukkan username/email/password anda.\" in login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mohon masukkan username/email/password anda.",
+                  "offset": 16
+                }
+              ],
+              "location": "demo.steps_definition.LoginSteps.<init>(LoginSteps.java:45)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ATI-602"
+          },
+          {
+            "name": "@TEST_ATI-252"
+          },
+          {
+            "name": "@TESTSET_ATI-251"
+          },
+          {
+            "name": "@BlankUsernameAndPassword"
+          },
+          {
+            "name": "@CommonFeature"
+          },
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Negative"
+          },
+          {
+            "name": "@iOS"
+          }
+        ]
+      }
+    ],
+    "name": "Test export xray",
+    "description": "",
+    "id": "test-export-xray",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/1_ATI-252.feature",
+    "tags": [
+      {
+        "name": "@ATI-602",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
